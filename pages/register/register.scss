@@ -1,0 +1,38 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    .register__Image {
+        flex: 1;
+
+    }
+    
+    .register__Input {
+        flex: 1;
+        
+        .register__Input__Button {
+            width: 100%;
+            height: 30px;
+            border: 1px solid #808080;
+            border-radius: 6px;
+            cursor: pointer;
+            
+            &:hover {
+                color: #fff;
+                border: 1px solid #fff;
+                background-color: #000;
+            }
+        }
+    }
+    .credit {
+        margin-top: 200px;
+        font-size: smaller;
+        
+        a {
+            text-decoration: none;
+            color: #808080;
+        }
+    }
+}
